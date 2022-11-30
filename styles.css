@@ -1,0 +1,165 @@
+ *{
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+
+.navbar{
+    border-bottom: 1px solid white;
+}
+
+
+
+#home{
+    background-color: black;
+    color: white;  
+}
+
+
+
+.home-text {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  25%{
+    background-position: -250%;
+  }
+  50%{
+    background-position: 0%;
+  }
+  75%{
+    background-position: -250%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+i{
+ color: white;
+ font-size: 30px; 
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-icon{
+    border: none;
+    background-color: black;
+}
+i:hover{
+    color: palevioletred;
+    cursor: pointer;
+}
+
+
+
+
+
+#about-us{
+    margin-top: 50px;
+    
+}
+#about-head{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#about-text{
+    padding-top: 20px;
+}
+#image-2{
+    width: 572px;
+    height: 600px;
+    padding: 20px;
+}
+
+
+
+.services-box{
+    min-height: 600px;
+}
+
+#services{
+    margin-top: 50px ;
+    font-weight: 700;
+}
+
+
+.card{
+    margin: 50px auto;
+    padding: 10px 20px 25px;
+    overflow: hidden;
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+ 
+#cards::-webkit-scrollbar {
+    width: 12px;     
+           
+}
+  
+#cards::-webkit-scrollbar-track {
+    background: white; 
+           
+}
+  
+#cards::-webkit-scrollbar-thumb {
+  background-color: black;    
+  border-radius: 20px;  
+  border:5px solid white;    
+  
+}
+
+
+
+
+#contact-text{
+    text-align: center;
+    font-weight: 700;
+}
+
+
+#form{
+    background-color: black;
+    color: white;
+}
+
+input{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 5px;
+}
+
+
+#btn-submit{
+    border: none;
+    padding: 5px;
+    background-color: white;
+    color: black;
+
+}
+
